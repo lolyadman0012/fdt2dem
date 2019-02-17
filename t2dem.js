@@ -15,7 +15,7 @@ client.on('message',async message => {
 if(!message.channel.guild) return message.reply(' ');
 
 
-  let submite = message.guild.channels.find(`name`, "اسم روم الي يحطلك معلومات الي قدم");
+  let submite = message.guild.channels.find(`name`, "تقديم");
 
   if(!submite) return message.channel.send("❌لم اجد الروم الخاص بالتقديمات");
 
